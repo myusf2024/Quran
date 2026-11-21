@@ -1,0 +1,8 @@
+{
+  "name": "Noor Mushaf",
+  "description": "13-Line Urdu Quran Mushaf reader with Arabic & Urdu audio recitations, instant search, bookmarks, night mode, zoom, single/spread page view, offline PWA access, and local database sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D4A38" />
+      <stop offset="100%" stop-color="#07291F" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0D278" />
+      <stop offset="100%" stop-color="#B88E2D" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)" />
+  <g transform="translate(256, 256)">
+    <!-- Rub el Hizb 8-pointed star -->
+    <rect x="-132" y="-132" width="264" height="264" rx="18" fill="none" stroke="url(#gold)" stroke-width="14" />
+    <rect x="-132" y="-132" width="264" height="264" rx="18" fill="none" stroke="url(#gold)" stroke-width="14" transform="rotate(45)" />
+    <circle cx="0" cy="0" r="106" fill="#083024" stroke="url(#gold)" stroke-width="6" />
+    <!-- Open Mushaf book silhouette -->
+    <path d="M-64,-34 C-40,-44 -14,-42 0,-26 C14,-42 40,-44 64,-34 L64,46 C40,36 14,38 0,54 C-14,38 -40,36 -64,46 Z" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linejoin="round" />
+    <line x1="0" y1="-26" x2="0" y2="54" stroke="url(#gold)" stroke-width="7" stroke-linecap="round" />
+    <!-- Script lines -->
+    <line x1="-46" y1="-12" x2="-16" y2="-10" stroke="#F0D278" stroke-width="5" stroke-linecap="round" />
+    <line x1="-46" y1="8" x2="-16" y2="10" stroke="#F0D278" stroke-width="5" stroke-linecap="round" />
+    <line x1="16" y1="-10" x2="46" y2="-12" stroke="#F0D278" stroke-width="5" stroke-linecap="round" />
+    <line x1="16" y1="10" x2="46" y2="8" stroke="#F0D278" stroke-width="5" stroke-linecap="round" />
+  </g>
+</svg>
